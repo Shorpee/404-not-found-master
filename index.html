@@ -5,23 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404-NOT-FOUND</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 <body>
-        <header class="logo">
+    <div class="container-fluid">
+        <nav>
             <h3>404 NOT FOUND</h3>
-        </header>
-        <main>
-            <div class="left">
-               <img src="./images/Scarecrow.png" alt="Scarescrow">
-            </div>
-            <div class="right">
-                <h1>I have bad news for you</h1>
-                <p>The page you're looking for might be removed or is temporarily unavailable</p>
-                <button href="#">Back to Homepage</button>
-            </div>
-        </main>
+        </nav>
+
+            <main class="row vertical-center ">
+                <div class="image-holder left col-md-5 col-lg-6">
+                    <img class="img-fluid" src="./images/Scarecrow.png" alt="Scarescrow">
+                </div>
+                <div class="caption col-md-7 col-lg-6">
+                    <h1 class="w-65">I have bad news for you</h1>
+                    <p class="w-55">The page you're looking for might be removed or is temporarily unavailable</p>
+                    <button href="#">Back to Homepage</button>
+                </div>
+            </main>
+        </div>
+    </div>
 </body>
 
 </html>
